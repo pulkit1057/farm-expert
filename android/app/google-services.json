@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061466456942",
+    "project_id": "farm-expert-a0c36",
+    "storage_bucket": "farm-expert-a0c36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061466456942:android:3079d15dd2645e9298b77f",
+        "android_client_info": {
+          "package_name": "com.example.crop_desease_detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUf9b9ZPB5tLFOoDDQMsan8QTw77Ox-t4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

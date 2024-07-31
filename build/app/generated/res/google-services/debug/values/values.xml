@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1061466456942</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUf9b9ZPB5tLFOoDDQMsan8QTw77Ox-t4</string>
+    <string name="google_app_id" translatable="false">1:1061466456942:android:3079d15dd2645e9298b77f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUf9b9ZPB5tLFOoDDQMsan8QTw77Ox-t4</string>
+    <string name="google_storage_bucket" translatable="false">farm-expert-a0c36.appspot.com</string>
+    <string name="project_id" translatable="false">farm-expert-a0c36</string>
+</resources>
