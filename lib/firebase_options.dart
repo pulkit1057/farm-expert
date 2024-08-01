@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAUf9b9ZPB5tLFOoDDQMsan8QTw77Ox-t4',
-    appId: '1:1061466456942:android:3079d15dd2645e9298b77f',
-    messagingSenderId: '1061466456942',
-    projectId: 'farm-expert-a0c36',
-    storageBucket: 'farm-expert-a0c36.appspot.com',
+    apiKey: 'AIzaSyAN7INF2y0qq5TI4ign0S-NLtyoxHYr3dc',
+    appId: '1:516561507195:android:4553975bea4761b21ba3de',
+    messagingSenderId: '516561507195',
+    projectId: 'farm-expert-e941e',
+    storageBucket: 'farm-expert-e941e.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyACyzodJRB9Kj2HY_QFj_1WjXr6Tfunfpo',
-    appId: '1:1061466456942:ios:a72f7b3b33f0512498b77f',
-    messagingSenderId: '1061466456942',
-    projectId: 'farm-expert-a0c36',
-    storageBucket: 'farm-expert-a0c36.appspot.com',
+    apiKey: 'AIzaSyAs7_ZjU5UDUjWROQobu7KD2LA_AMx3-ys',
+    appId: '1:516561507195:ios:51b7bcd3db9646d81ba3de',
+    messagingSenderId: '516561507195',
+    projectId: 'farm-expert-e941e',
+    storageBucket: 'farm-expert-e941e.appspot.com',
     iosBundleId: 'com.example.cropDeseaseDetection',
   );
 

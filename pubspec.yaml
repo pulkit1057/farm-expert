@@ -40,6 +40,10 @@ dependencies:
   firebase_storage: ^12.1.2
   image_picker: ^1.1.2
   cloud_firestore: ^5.2.0
+  http: any
+  googleapis: any
+  googleapis_auth: any
+  path: any
 
 dev_dependencies:
   flutter_test:

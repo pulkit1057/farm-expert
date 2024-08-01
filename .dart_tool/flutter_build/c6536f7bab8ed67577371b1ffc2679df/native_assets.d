@@ -1,0 +1,1 @@
+ C:\\Users\\pulka\\OneDrive\\Desktop\\Flutter_projects\\crop_desease_detection\\.dart_tool\\flutter_build\\c6536f7bab8ed67577371b1ffc2679df\\native_assets.yaml: 

@@ -1,0 +1,4 @@
+#Thu Aug 01 23:06:44 IST 2024
+base.0=C\:\\Users\\pulka\\OneDrive\\Desktop\\Flutter_projects\\crop_desease_detection\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

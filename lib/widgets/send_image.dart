@@ -3,7 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
 class SendImage extends StatefulWidget {
-  const SendImage({super.key});
+  const SendImage({
+    super.key,
+    required this.onPickImage,
+    required this.selectedImage,
+  });
+
+  final File? selectedImage;
+  final void Function(File pickedImage) onPickImage;
+
   @override
   State<SendImage> createState() {
     return _SendImageState();
@@ -11,18 +19,19 @@ class SendImage extends StatefulWidget {
 }
 
 class _SendImageState extends State<SendImage> {
-  File? _selectedImage;
   void _takePicture() async {
     final imagePicker = ImagePicker();
-    final pickedImage =
-        await imagePicker.pickImage(source: ImageSource.camera, maxWidth: 600);
+    final pickedImage = await imagePicker.pickImage(
+        source: ImageSource.camera, maxWidth: 600);
 
     if (pickedImage == null) {
       return;
     }
 
+    final pickedImageFile = File(pickedImage.path);
+
     setState(() {
-      _selectedImage = File(pickedImage.path);
+      widget.onPickImage(pickedImageFile);
     });
   }
 
@@ -34,17 +43,18 @@ class _SendImageState extends State<SendImage> {
       onPressed: _takePicture,
     );
 
-    if (_selectedImage != null) {
+    if (widget.selectedImage != null) {
       content = GestureDetector(
         onTap: _takePicture,
         child: Image.file(
-          _selectedImage!,
+          widget.selectedImage!,
           fit: BoxFit.cover,
           width: double.infinity,
           height: double.infinity,
         ),
       );
     }
+
     return Container(
       height: 250,
       width: double.infinity,

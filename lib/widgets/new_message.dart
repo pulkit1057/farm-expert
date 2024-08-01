@@ -26,12 +26,23 @@ class _NewMessageState extends State<NewMessage> {
     final user = FirebaseAuth.instance.currentUser!;
     final userData = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
 
-    FirebaseFirestore.instance.collection('chat').add({
-      'text':enteredMessage,
-      'createdAt':Timestamp.now(),
-      'userId':user.uid,
-      'username':userData.data()!['username'],
-      'userImage':userData.data()!['imageUrl'],
+    await FirebaseFirestore.instance
+        .collection('user_data')
+        .doc(user.uid)
+        .set({
+      'username': userData.data()!['username'],
+      'email': userData.data()!['email'],
+    });
+
+    // Add a new document to the images subcollection
+    await FirebaseFirestore.instance
+        .collection('user_data')
+        .doc(user.uid)
+        .collection('chat')
+        .add({
+          'message': enteredMessage,
+        'createdAt': Timestamp.now(),
+        'reply': '',
     });
   }
 
