@@ -32,6 +32,15 @@ The **Farm-Expert App** is a comprehensive tool designed to assist farmers in ma
   - Navigate to the chatbot section.
   - Ask any farming-related question, and the chatbot will provide a detailed response.
 
+## Future Work
+We have exciting plans to enhance the Farm-Expert App to better serve our users:
+
+- **Voice Assistant Integration**:
+  - We plan to integrate a voice assistant that can control the app and respond to users in voice. This feature will be especially beneficial for illiterate farmers, allowing them to interact with the app through voice commands and receive spoken responses.
+
+- **Multilingual Support**:
+  - To make the app more accessible and user-friendly, we are working on adding multilingual support. This will enable farmers to use the app in their preferred language, ensuring a better and more personalized experience.
+
 ## License
 This project is licensed under the MIT License
 
