@@ -20,3 +20,20 @@ The **Farm-Expert App** is a comprehensive tool designed to assist farmers in ma
   - **Large Language Model (LLM)**: Powers the chatbot, enabling it to provide contextual and accurate responses.
 - **Database**: Firebase for storing user data, images, and interaction logs.
 - **Deployment**: Docker for containerization, making the app easily deployable across different environments.
+
+
+## Usage
+- **Detecting Crop Diseases**:
+  - Open the app and navigate to the crop disease detection section.
+  - Capture or upload an image of the crop.
+  - Wait for the app to analyze the image and provide the diagnosis and remedy.
+
+- **Chatbot Interaction**:
+  - Navigate to the chatbot section.
+  - Ask any farming-related question, and the chatbot will provide a detailed response.
+
+## License
+This project is licensed under the MIT License
+
+## Contact
+For any queries or support, please contact [this mail.](mailto:vayanshgarg@gmail.com).
