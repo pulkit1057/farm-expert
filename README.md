@@ -26,7 +26,7 @@ The **Farm-Expert App** is a comprehensive tool designed to assist farmers in ma
 Here are some screenshots of the Farm-Expert App in action:
 
 ### SignUp Screen
-![SignUp](https://github.com/user-attachments/assets/6545ab34-bdf6-44f4-913f-7ea597ce337b|width=300)
+![SignUp](https://github.com/user-attachments/assets/6545ab34-bdf6-44f4-913f-7ea597ce337b | width=300)
 
 
 ### Crop Disease Detection
