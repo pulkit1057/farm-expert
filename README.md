@@ -56,8 +56,5 @@ We have exciting plans to enhance the Farm-Expert App to better serve our users:
 - **Multilingual Support**:
   - To make the app more accessible and user-friendly, we are working on adding multilingual support. This will enable farmers to use the app in their preferred language, ensuring a better and more personalized experience.
 
-## License
-This project is licensed under the MIT License
-
 ## Contact
 For any queries or support, please contact [this mail.](mailto:vayanshgarg@gmail.com).
